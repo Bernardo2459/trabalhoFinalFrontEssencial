@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Proza+Libre&display=swap');
+
+:root{
+    --cor-primaria: #757575;
+    --cor-secundaria: #f8f9fd;
+    --cor-terciaria: #0A5388;
+    --cor-background: #fff;
+}
+
+body{
+	font-family: 'Proza Libre', sans-serif;
+    font-size:16px;
+    max-width:1920px;
+    margin:0 auto;
+	overflow-x:hidden;
+}
+.navbar-expand-lg .navbar-collapse{
+    max-width:1920px;
+}
+
+/*---------- header ----------*/
+.navbar-sticky{
+    position: fixed;
+    background-color: var(--cor-secundaria);
+    width: 100%;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+}
+.navbar-sticky img{
+    width: 200px;
+}
+.menu ul{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.menu a{
+    color: var(--cor-primaria);
+    margin: 20px;
+    font-size: 18px;
+}
+.menu a:hover{
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+.icons{
+    font-size: 25px;
+}
+.icons a{
+    color: var(--cor-primaria);
+    margin: 15px;
+}
+
+.btn-primary{
+    background-color: var(--cor-terciaria);
+    border: 0;
+}
+.btn-primary:hover{
+    background-color: var(--cor-primaria);
+    border: 0;
+}
+.banner{
+	background-image:url(../img/banner.jpg);
+	background-attachment: fixed;
+	padding-top: 240px;
+	padding-bottom: 180px;
+    text-align: center;
+    color: white;
+}
+.banner h2{
+    font-size: 25px;
+}
+.banner-empresa{
+	background-image:url(../img/banner-empresa.jpg);
+	background-attachment: fixed;
+	padding-top: 140px;
+	padding-bottom: 60px;
+    text-align: left;
+    color: white;
+}
+.banner-empresa span{
+    font-size: 25px;
+}
+
+/*---------- marcas ----------*/
+.clients {
+    background: #f8f9fd;
+    display: flex;
+    align-items: center;
+    height: 220px;
+}
+.clients .item {
+    text-align: center;
+    width: 100px;
+    margin-left: 40px;
+}
+
+/*---------- footer ----------*/
+.footer-assinatura{
+    padding-top: 85px;
+    padding-bottom: 85px;
+    text-align: justify;
+}
+.footer-assinatura h3{
+    color: var(--cor-primaria);
+    font-size: 25px;
+}
+.footer-assinatura p{
+    color: var(--cor-primaria);
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+.footer-paginas a{
+    color: var(--cor-primaria);
+}
+.footer {
+    background: var(--cor-secundaria);
+    display: flex;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+}
+.footer-copyright {
+    color: var(--cor-primaria);
+    font-size: 14px;
+}
+.footer-social i{
+    color: var(--cor-primaria);
+    margin: 0 18px 24px 0;
+
+}
+.footer-social i:hover{
+    color: #5787e0;
+}
