@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Proza+Libre&display=swap');
+
+:root{
+    --cor-primaria: #757575;
+    --cor-secundaria: #f8f9fd;
+    --cor-terciaria: #0A5388;
+    --cor-background: #fff;
+}
+
+/*---------- login ----------*/
+.box-login{
+    margin: 80px 20px 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+.box-login p{
+    color: var(--cor-primaria);
+    font-size: 15px;
+    margin-top: 25px;
+}
+.box-login h1{
+    color: var(--cor-terciaria);
+    font-size: 30px;
+}
+.box-login  label{
+    color: var(--cor-primaria);
+    font-size: 15px;
+}
