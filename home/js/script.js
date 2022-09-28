@@ -34,7 +34,6 @@ async function produtos() {
           </p>
           </p><button id="btn-entrar" type="button" class="btn btn-primary">Ver produto</button>
     `
-
     document.getElementById("modal").insertAdjacentHTML('beforeend', card)
     })*/
 

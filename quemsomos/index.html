@@ -14,13 +14,13 @@
 	<link rel="stylesheet" href="../css/owl.carousel.min.css">
 	<link rel="stylesheet" href="../css/owl.theme.default.min.css">
     </head>
-    <body>
+    <body onload="buscarDadosNoGithub()">
 
 		<!-- HEADER -->
 		<header>
 			<div class="navbar-sticky">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					<a class="navbar-brand" href="../index.html"><img src="../img/logo.png"></a>
+					<a class="navbar-brand" href="../home/index.html"><img src="../img/logo.png"></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					  <span class="navbar-toggler-icon"></span>
 					</button>
@@ -31,13 +31,13 @@
 								<a href="../home/index.html">Home</a>
 							</li>
 							<li class="nav-item">
-								<a href="#produtos">Produtos</a>
+								<a href="../home/index.html#produtos">Produtos</a>
 							</li>
 							<li class="nav-item">
 								<a href="../login/index.html">Empresa</a>
 							</li>
 							<li class="nav-item">
-								<a href="#destaques">Destaques</a>
+								<a href="../home/index.html#destaques">Destaques</a>
 							</li>
 							<li class="nav-item">
 								<a href="../contato">Contato</a>
@@ -74,73 +74,10 @@
 				<div class="quem-somos-single">
 					<h1>Nossa equipe</h1>
 				</div>
-				<div class="row">
-				<div class="col-md-6">
-					<div class="single-equipe">
-						<img src="img_avatar1.png" alt="Card image">
-						<div class="card-body">
-							<h4>Equipe</h4>
-							<a href="#"><i class="fa fa-github"></i></a>	
-							<a href="#"><i class="fa fa-laptop"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="single-equipe">
-						<img src="img_avatar1.png" alt="Card image">
-						<div class="card-body">
-							<h4>Equipe</h4>
-							<a href="#"><i class="fa fa-github"></i></a>	
-							<a href="#"><i class="fa fa-laptop"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="single-equipe">
-						<img src="img_avatar1.png" alt="Card image">
-						<div class="card-body">
-							<h4>Equipe</h4>
-							<a href="#"><i class="fa fa-github"></i></a>	
-							<a href="#"><i class="fa fa-laptop"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="single-equipe">
-						<img src="img_avatar1.png" alt="Card image">
-						<div class="card-body">
-							<h4>Equipe</h4>
-							<a href="#"><i class="fa fa-github"></i></a>	
-							<a href="#"><i class="fa fa-laptop"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="single-equipe">
-						<img src="img_avatar1.png" alt="Card image">
-						<div class="card-body">
-							<h4>Equipe</h4>
-							<a href="#"><i class="fa fa-github"></i></a>	
-							<a href="#"><i class="fa fa-laptop"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="single-equipe">
-						<img src="img_avatar1.png" alt="Card image">
-						<div class="card-body">
-							<h4>Equipe</h4>
-							<a href="#"><i class="fa fa-github"></i></a>	
-							<a href="#"><i class="fa fa-laptop"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
+				<div class="row" id="equipe">
+				
+				
+				
 			</div>
 			</div>
 		</section>   
@@ -180,9 +117,9 @@
 					<div class="col-md-3 footer-paginas">
 						<h3>Páginas</h3>
 						<p><a href="../home/index.html">Home</a></p>
-						<p><a href="#produtos">Produtos</a></p>
+						<p><a href="../home/index.html#produtos">Produtos</a></p>
 						<p><a href="../login/index.html">Empresa</a></p>
-						<p><a href="#destaques">Destaques</a></p>
+						<p><a href="../home/index.html#destaques">Destaques</a></p>
 						<p><a href="../contato">Contato</a></p>
 					</div>
 					<div class="col-md-3 footer-paginas">
@@ -218,7 +155,6 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <!-- Latest compiled JavaScript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-		<script src="jquery.min.js"></script>
 		<!--owl.carousel.js-->
         <script src="../js/owl.carousel.min.js"></script>
 		<script src="../js/base.js"></script>
