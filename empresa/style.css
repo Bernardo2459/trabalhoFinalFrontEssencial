@@ -1,17 +1,36 @@
-#empresa{ 
+h1{
+
     text-align: center;
-    align-items: center ;
-    color:blue;
-    margin: 30;
-    display: flex;
+    position: center;
     justify-content: center;
+    background: none repeat scroll 0 0 transparent;
+    color: #666666;
+    font-family: droid sans;
+    font-weight: bold;
+    text-transform: none;
 }
-#quemsomos{
-    align-items: center;
+
+p{
+    
     text-align: center;
-    color: black;
-    margin: 30;
-    display: flex;
+    position: center;
     justify-content: center;
+    background: none repeat scroll 0 0 transparent;
+    color: black;
+    font-family: droid sans;
+    font-weight: bold;
+    text-transform: none;
+    
    
+}
+h2{
+    text-align: center;
+    position: center;
+    justify-content: center;
+    background: none repeat scroll 0 0 transparent;
+    color: #666666;
+    font-family: droid sans;
+    font-weight: bold;
+    text-transform: none;
+    
 }
