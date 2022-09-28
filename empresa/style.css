@@ -1,0 +1,17 @@
+#empresa{ 
+    text-align: center;
+    align-items: center ;
+    color:blue;
+    margin: 30;
+    display: flex;
+    justify-content: center;
+}
+#quemsomos{
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin: 30;
+    display: flex;
+    justify-content: center;
+   
+}
