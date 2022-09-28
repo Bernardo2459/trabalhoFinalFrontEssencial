@@ -7,9 +7,19 @@
   --cor-background: #fff;
 }
 
+a{
+  cursor: pointer;
+}
+
 /*---------- produtos ----------*/
-.card{
-  text-align: center;
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  margin: 20px 10px 20px 10px;
+}
+.modal img{
+  text-align center;
 }
 .card h4{
   color: var(--cor-terciaria);
@@ -36,7 +46,6 @@
   margin: 80px 0 80px 0;
 }
 .carousel-inner-css{
-  max-height: 500px;
   padding-top: 50px;
 }
 
