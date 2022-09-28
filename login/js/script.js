@@ -4,7 +4,7 @@ function autenticar(){
 
     if(email == "admin@admin.com" && senha == "123456"){
         alert('Sucesso');
-        location.href = "../empresa/index.html";
+        location.href = "../quemsomos/index.html";
     }else{
         alert('Usuário ou senha incorretos');
     }

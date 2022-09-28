@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Proza+Libre&display=swap');
+
+:root{
+    --cor-primaria: #757575;
+    --cor-secundaria: #f8f9fd;
+    --cor-terciaria: #0A5388;
+    --cor-background: #fff;
+}
+
+#empresa{ 
+    align-items: center ;
+    color:blue;
+    position: center;
+    background: blue;
+    margin: 30;
+    
+    justify-content: center;
+}
+#quemsomos{
+    align-items: center;
+    text-align: center;
+    color: black;
+    position: center;
+    margin: 30;
+    display: flex;
+    justify-content: center;
+   
+}
+.quem-somos{
+    margin: 80px 0 80px 0;
+}
+.quem-somos h1{
+    color: var(--cor-terciaria);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.quem-somos p{
+    color: var(--cor-primaria);
+    font-size: 15px;
+    text-align: justify;
+}
+.quem-somos-single h1{
+    color: var(--cor-terciaria);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.equipe h4{
+    color:var(--cor-primaria);
+    font-size:17px;
+    font-weight:600;
+    margin-top: 20px;
+}
+.equipe i{
+    color: var(--cor-terciaria);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 10px 0 10px;
+}
+.card{
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+.single-equipe{
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
