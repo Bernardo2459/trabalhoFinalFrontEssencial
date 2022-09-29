@@ -38,7 +38,7 @@ async function produtos() {
         modalWrap.remove();
     }
   
-    var respostaAPI = await fetch("https://mocki.io/v1/c4e301ae-f078-4460-b3b9-d58214b3f895");
+    var respostaAPI = await fetch(`https://mocki.io/v1/c4e301ae-f078-4460-b3b9-d58214b3f895`);
     
     var produtos = await respostaAPI.json()
     
