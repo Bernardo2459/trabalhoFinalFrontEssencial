@@ -18,10 +18,22 @@ a{
   border: none;
   margin: 20px 10px 20px 10px;
 }
-.modal img{
+.modal{
   text-align: center;
-  width: 100px;
-  height:100px;
+}
+.modal img{
+  width: 100%;
+}
+.texto-modal{
+  color:var(--cor-primaria);
+  font-size:16px;
+  text-align: justify;
+}
+.modal h4{
+  color: var(--cor-terciaria);
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
 }
 .card h4{
   color: var(--cor-terciaria);
