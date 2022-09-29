@@ -38,7 +38,7 @@ async function produtos() {
         modalWrap.remove();
     }
   
-    var respostaAPI = await fetch("https://mocki.io/v1/c4e301ae-f078-4460-b3b9-d58214b3f895");
+    var respostaAPI = await fetch(`https://mocki.io/v1/c4e301ae-f078-4460-b3b9-d58214b3f895`);
     
     var produtos = await respostaAPI.json()
     
@@ -72,7 +72,7 @@ async function produtos() {
                                         <div class="col mt-5 ">
                                             <h6 class="text-start">Descrição : </h6>
                                             <p class="text-start">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea dicta nam, totam cumque sapiente alias repellat quia animi officiis iusto eligendi, accusantium consequatur. Quisquam, neque? Quas eaque ipsa reiciendis?
+                                            ${item.descricao}   
                                             </p>
                                         </div> 
   
