@@ -1,5 +1,5 @@
 async function produtos() {
-    var respostaAPI = await fetch(`https://mocki.io/v1/f3db575d-0282-4b74-a286-d33545405316`)
+    var respostaAPI = await fetch(`https://mocki.io/v1/c4e301ae-f078-4460-b3b9-d58214b3f895`)
   
     var produtos = await respostaAPI.json();
     console.log(produtos)
@@ -38,7 +38,7 @@ async function produtos() {
         modalWrap.remove();
     }
   
-    var respostaAPI = await fetch("https://mocki.io/v1/f3db575d-0282-4b74-a286-d33545405316");
+    var respostaAPI = await fetch("https://mocki.io/v1/c4e301ae-f078-4460-b3b9-d58214b3f895");
     
     var produtos = await respostaAPI.json()
     
