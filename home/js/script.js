@@ -43,7 +43,7 @@ async function produtosModal(produto) {
       <div class="imagem-modal">
         <img src=${item.imagem} alt="Produto 1">
       </div>
-      <h4>${item.nome}</h4>
+      <h4>${item.Tenis}</h4>
       <p class="texto-modal">${item.descricao}</p>
       <p class="produto-preco"><span>R$ </span>${item.preco}</p>
       <button id="btn-entrar" type="button" class="btn btn-primary">Ver produto</button>
