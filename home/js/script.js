@@ -72,7 +72,7 @@ async function produtos() {
                                         <div class="col mt-5 ">
                                             <h6 class="text-start">Descrição : </h6>
                                             <p class="text-start">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea dicta nam, totam cumque sapiente alias repellat quia animi officiis iusto eligendi, accusantium consequatur. Quisquam, neque? Quas eaque ipsa reiciendis?
+                                            ${item.descricao}   
                                             </p>
                                         </div> 
   
