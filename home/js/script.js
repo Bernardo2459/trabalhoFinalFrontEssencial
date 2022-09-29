@@ -6,6 +6,7 @@ async function produtos() {
 
   produtos.map(item => {
       var card = `
+<<<<<<< HEAD
       <div class="col-sm-4">
       <div class="card">
       <img id="foto" class="card-img-top" src=${item.imagem} alt="Produto" onclick="showModal(${item.id})">
@@ -17,10 +18,21 @@ async function produtos() {
           <a data-toggle="modal" data-target="#myModal" onclick="showModal(${item.id})">Mais informações</a>
           </p>
         </div>
+=======
+      <div class="modal-body">
+      <div class="imagem-modal">
+        <img src=${item.imagem} alt="Produto 1">
+      </div>
+      <h4>${item.Tenis}</h4>
+      <p class="texto-modal">${item.descricao}</p>
+      <p class="produto-preco"><span>R$ </span>${item.preco}</p>
+      <button id="btn-entrar" type="button" class="btn btn-primary">Ver produto</button>
+>>>>>>> 33da97be318d18c59b570799ca604865b71873a6
       </div>
     </div>
   `
 
+<<<<<<< HEAD
   document.getElementById("produtos").insertAdjacentHTML('beforeend', card)
 
   //produtosModal(item.id)
@@ -103,3 +115,6 @@ async function  showModal (id) {
 
 
 
+=======
+}
+>>>>>>> 33da97be318d18c59b570799ca604865b71873a6

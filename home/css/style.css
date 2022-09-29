@@ -18,7 +18,21 @@ a{
   border: none;
   margin: 20px 10px 20px 10px;
 }
+.modal{
+  text-align: center;
+}
 .modal img{
+  width: 100%;
+}
+.texto-modal{
+  color:var(--cor-primaria);
+  font-size:16px;
+  text-align: justify;
+}
+.modal h4{
+  color: var(--cor-terciaria);
+  font-size: 20px;
+  margin-top: 20px;
   text-align: center;
 }
 .card h4{
@@ -147,7 +161,10 @@ span.destaques-icon i {
   margin-top: 15px;
   background-color: var(--cor-secundaria);
 }
+<<<<<<< HEAD
 
 #foto{
   cursor: pointer;
 }
+=======
+>>>>>>> 33da97be318d18c59b570799ca604865b71873a6
