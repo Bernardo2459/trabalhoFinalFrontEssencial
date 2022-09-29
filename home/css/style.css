@@ -147,3 +147,7 @@ span.destaques-icon i {
   margin-top: 15px;
   background-color: var(--cor-secundaria);
 }
+
+#foto{
+  cursor: pointer;
+}
