@@ -20,6 +20,8 @@ a{
 }
 .modal img{
   text-align: center;
+  width: 100px;
+  height:100px;
 }
 .card h4{
   color: var(--cor-terciaria);
