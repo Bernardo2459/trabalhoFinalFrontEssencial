@@ -77,7 +77,7 @@ async function produtos() {
                                         </div> 
   
                                         <div class="col mt-5 mb-5 d-flex  align-items-left">
-                                            <h6 class="card-text">PREÇO : <strong>${item.preco}</strong></h6>
+                                            <h6 class="card-text">PREÇO: R$ <strong>${item.preco}</strong></h6>
                                             
                                         </div>                                        
                                     </div>
@@ -86,7 +86,7 @@ async function produtos() {
                         </div>  
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-shopping-cart"></i> Comprar</button>
                     </div>
                 </div>
             </div>
